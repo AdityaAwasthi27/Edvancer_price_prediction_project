@@ -1,0 +1,24 @@
+Real Estate Price Prediction using Linear Regression
+
+OBJECTIVE
+This Machine Learing Project involves Building a Predictive model using Linear Regression and predicting the accurate prices of the Real Estate proterties.
+
+Price of a property is one of the most important decision criterion when people buy homes. Real state firms need to be consistent in their pricing in order to attract buyers . Having a predictive model for the same will be great tool to have , which in turn can also be used to tweak development of properties , putting more emphasis on qualities which increase the value of the property.
+
+TAGS
+Linear Regression, RMSE.
+
+PROJECT METHODOLOGY
+The project involves the following steps:
+
+1. Imputing NA values in the datasets.
+2. Data Preparation:Grouping similar category variables and making dummies.
+3. Model Building. ( LINEAR REGRESSION )
+4 .Perfomance measurement of the model. (Calculating RMSE)
+5. Predicting Real Estate Prices for the final Test Dataset.
+
+DATA DICTIONARY
+There exist two datasets, housing_train.csv and housing_test.csv .
+We will use data housing_train to build predictive model for response variable “Price”.
+Housing_test data contains all other factors except “Price” which we can use for testing purpose.
+The evalution metric will be RMSE.
